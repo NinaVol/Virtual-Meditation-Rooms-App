@@ -1,0 +1,85 @@
+
+#header{
+    display: flex;
+    justify-content: center;
+    /* background-color: #0067698e; */
+    border-radius: 20px;
+    padding: 20px;
+    height: 100px;
+}
+h1{
+    padding: 5px;
+    border-radius: 20px;
+    color: #21400f;
+    font-size: 40px;
+}
+#main-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#timer-container,#btn-container{
+   width: 300px;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   background-color: #1679ab87;
+   border-radius: 20px;
+   margin-top: 60px;
+   align-items: center;
+   padding: 20px;
+}
+label{
+    background-color:#9DDE8B;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+input{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#setTimerButton{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E6FF94;
+}
+#startButton,#stopButton{
+    margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E6FF94;
+}
+#countdown{
+    margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #9DDE8B;
+}
+#vanta-background {
+    width: 100%;
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+@media all and (max-width: 500px) {
+    #main-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+}

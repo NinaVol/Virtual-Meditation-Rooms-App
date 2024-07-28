@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+h1,h2,p{
+    font-family: "Josefin Sans", sans-serif;
+    /* background-color:#9DDE8B; */
+  
+    border-radius: 20px;
+    color: #fff;
+}
+
+#meditation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1679ab87;
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#btn{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFB1B1;
+
+}
+#btn:hover{
+    background: linear-gradient(to right, #FFB1B1, #FF6969);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#myVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+
+#vanta-background {
+    width: 100%;
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
+
+@media all and (max-width: 500px) {
+    h1{
+        text-align: center;
+    }
+}
