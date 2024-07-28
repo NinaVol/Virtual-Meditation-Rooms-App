@@ -21,7 +21,7 @@ Gain full control over your session with the ability to pause the timer and resu
 ## Installation and Setup
 To access and run the Virtual Meditation Rooms App:
 ### Clone the repository:
-git clone [Repository URL]
+git clone [(https://github.com/NinaVol/Virtual-Meditation-Rooms-App.git)]
 
 ### Open the index.html file in a modern web browser to start the application.
 
