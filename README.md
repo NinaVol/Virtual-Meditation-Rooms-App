@@ -30,6 +30,9 @@ git clone [(https://github.com/NinaVol/Virtual-Meditation-Rooms-App.git)]
 
 This app is designed to create an oasis of peace in your daily life. The integration of visual and sound elements aims to transport you from your physical surroundings to a place of inner calm and balance. Whether you need a short break from your day or a long session to unwind, this app adjusts to your needs, making meditation accessible and straightforward.
 
+##Link
+https://virtual-meditation-rooms-app-nv.netlify.app
+
 ## License
 
 This project is distributed under the MIT License, allowing free use and adaptation by users and developers alike.
